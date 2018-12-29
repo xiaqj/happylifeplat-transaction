@@ -28,6 +28,8 @@ import org.springframework.context.annotation.ImportResource;
 
 /**
  * @author xiaoyu
+ *
+ * 库存服务
  */
 @SpringBootApplication(exclude = {MongoAutoConfiguration.class, MongoDataAutoConfiguration.class})
 @EnableEurekaClient
