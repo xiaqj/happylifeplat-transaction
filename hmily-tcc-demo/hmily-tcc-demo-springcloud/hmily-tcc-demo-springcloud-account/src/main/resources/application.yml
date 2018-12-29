@@ -7,9 +7,9 @@ server:
 spring:
     datasource:
         driver-class-name:  com.mysql.jdbc.Driver
-        url: jdbc:mysql://192.168.1.68:3306/tcc_account?useUnicode=true&characterEncoding=utf8
-        username: xiaoyu
-        password: Wgj@555888
+        url: jdbc:mysql://192.168.1.162:3306/tcc_account?useUnicode=true&characterEncoding=utf8
+        username: root
+        password: root
         initialSize: 20
         minIdle: 20
         maxActive: 100
@@ -37,9 +37,9 @@ hmily:
         repositorySupport : db
         tccDbConfig :
                  driverClassName  : com.mysql.jdbc.Driver
-                 url :  jdbc:mysql://192.168.1.68:3306/tcc?useUnicode=true&amp;characterEncoding=utf8
-                 username : xiaoyu
-                 password : Wgj@555888
+                 url :  jdbc:mysql://192.168.1.162:3306/tcc?useUnicode=true&amp;characterEncoding=utf8
+                 username : root
+                 password : root
 
        # repositorySupport : redis
        #         hostName  : 192.168.1.68
